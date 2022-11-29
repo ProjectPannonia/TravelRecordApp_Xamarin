@@ -17,7 +17,12 @@ namespace TravelRecordApp
 
             if(isEmailEmpty || isPasswordEmpty )
             {
-
+                // do not navigate
+            }
+            else
+            {
+                // navigate
+                Navigation.PushAsync(new HomePage());
             }
         }
     }
